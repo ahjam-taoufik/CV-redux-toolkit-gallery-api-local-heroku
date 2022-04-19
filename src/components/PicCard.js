@@ -19,7 +19,8 @@ const PicCard = ({ pic }) => {
       photo: pic.photo,
     };
 
-    axios.put("http://localhost:5000/pictures/" + pic.id, data).then(
+    // axios.put("http://localhost:5000/pictures/" + pic.id, data).then(
+    axios.put("https://ahjam-rdx-tkit-galleryapilocal.herokuapp.com/pictures/" + pic.id, data).then(
         dispatch(editGallery(data))
     )
   };

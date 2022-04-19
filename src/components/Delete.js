@@ -6,7 +6,8 @@ import { deleteGallery } from "../features/gallerySlice";
 const Delete = ({ id }) => {
   const dispatch=useDispatch()
   const handleDelete = () => {
-    axios.delete("http://localhost:5000/pictures/" + id).then(
+    // axios.delete("http://localhost:5000/pictures/" + id).then(
+    axios.delete("https://ahjam-rdx-tkit-galleryapilocal.herokuapp.com/pictures/" + id).then(
         dispatch(deleteGallery(id))
     )
   };

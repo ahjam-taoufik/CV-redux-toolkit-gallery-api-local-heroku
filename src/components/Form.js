@@ -20,7 +20,8 @@ const Form = () => {
       )}`,
     };
 
-    axios.post("http://localhost:5000/pictures", data).then(() => {
+    // axios.post("http://localhost:5000/pictures", data).then(() => {
+    axios.post("https://ahjam-rdx-tkit-galleryapilocal.herokuapp.com/pictures", data).then(() => {
       dispatch(addGallery(data));
       formRef.current.reset();
     });
