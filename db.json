@@ -1,10 +1,9 @@
 {
   "pictures": [
     {
-      "artist": "Paulin Frustro",
+      "artist": "Paulin ",
       "year": "2021",
       "photo": "https://picsum.photos/400/352",
-      "addedDate": 1649240229849,
       "id": 1
     },
     {
@@ -14,7 +13,7 @@
       "id": 3
     },
     {
-      "artist": "Samedixs",
+      "artist": "Samedixs maak",
       "year": "2010",
       "photo": "https://picsum.photos/400/396",
       "id": 4
